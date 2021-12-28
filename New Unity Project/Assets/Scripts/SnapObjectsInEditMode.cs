@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
@@ -16,7 +14,7 @@ public static class SnapObjectsInEditMode
 #if UNITY_EDITOR
         if (!Application.isPlaying)
         {
-            if (Event.current.shift)
+            if (Event.current.capsLock)
             {
                 var selectedTransform = Selection.activeTransform;
                 if (Event.current.type == EventType.KeyDown)
@@ -55,14 +53,16 @@ public static class SnapObjectsInEditMode
             Vector3 penetrationDirection;
             float penetrationDistance;
 
-            bool overlapped = Physics.ComputePenetration(
+            bool computePenetration = Physics.ComputePenetration(
             snapObjectTransform.GetComponent<Collider>(), snapObjectTransform.transform.position, snapObjectTransform.transform.rotation,
-            hit.collider, hit.point, hit.transform.rotation,
+            hit.transform.gameObject.GetComponent<Collider>(), hit.transform.position, hit.transform.rotation,
             out penetrationDirection, out penetrationDistance
             );
 
+            Debug.Log("Direction :" + penetrationDirection + "\n" + " Distance :" + penetrationDistance);
+
             var targetPos = snapObjectTransform.position;
-            targetPos += penetrationDirection / 2f;
+            targetPos += penetrationDirection * penetrationDistance;
             snapObjectTransform.position = targetPos;
         }
     }

@@ -12,57 +12,57 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51688
+49298
 Successfully changed project path to: /Users/sergen/Documents/GitHub/SnapObjectsInEditMode/New Unity Project
 /Users/sergen/Documents/GitHub/SnapObjectsInEditMode/New Unity Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 28.04 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 29.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/sergen/Documents/GitHub/SnapObjectsInEditMode/New Unity Project/Assets
 GfxDevice: creating device client; threaded=0
-2021-12-27 15:44:22.922 Unity[8176:139110] (null) preferred device: Apple M1 (high power)
-2021-12-27 15:44:22.922 Unity[8176:139110] Metal devices available: 1
-2021-12-27 15:44:22.922 Unity[8176:139110] 0: Apple M1 (high power)
-2021-12-27 15:44:22.922 Unity[8176:139110] Using device Apple M1 (high power)
+2021-12-28 11:16:53.771 Unity[779:9181] (null) preferred device: Apple M1 (high power)
+2021-12-28 11:16:53.771 Unity[779:9181] Metal devices available: 1
+2021-12-28 11:16:53.771 Unity[779:9181] 0: Apple M1 (high power)
+2021-12-28 11:16:53.771 Unity[779:9181] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56779
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001496 seconds.
+Registered in 0.001422 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 25.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 29.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.678 seconds
+- Completed reload, in  4.356 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003460 seconds.
+Registered in 0.003223 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.094 seconds
+- Completed reload, in  2.189 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
-Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.6 MB.
-System memory in use after: 169.6 MB.
+Unloading 1400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.4 MB.
+System memory in use after: 172.5 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1820.
-Total: 1.428791 ms (FindLiveObjects: 0.113250 ms CreateObjectMapping: 0.027250 ms MarkObjects: 1.205417 ms  DeleteObjects: 0.082000 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1833.
+Total: 1.603709 ms (FindLiveObjects: 0.130208 ms CreateObjectMapping: 0.063042 ms MarkObjects: 1.300166 ms  DeleteObjects: 0.109458 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   requireTextureImportCompression: false -> true
@@ -70,1260 +70,226 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Scripts/SnapObjectsInEditMode.cs
   artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9541ea811cf36b7e6369ee7af1cb471c') in 0.182769 seconds
-  Import took 0.184978 seconds .
+Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746beb684fdb5277cb46826593804cb9') in 0.266868 seconds
+  Import took 0.269417 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002216 seconds.
+Registered in 0.002056 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.998 seconds
+- Completed reload, in  2.040 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.2 MB.
-System memory in use after: 174.2 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1822.
-Total: 1.353209 ms (FindLiveObjects: 0.105750 ms CreateObjectMapping: 0.061125 ms MarkObjects: 1.122334 ms  DeleteObjects: 0.063167 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-========================================================================
-Received Import Request.
-  Time since last request: 36.646591 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2e277506dae7313cbab87fee2265ff') in 0.015959 seconds
-  Import took 0.017724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019595 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2e277506dae7313cbab87fee2265ff') in 0.002158 seconds
-  Import took 0.004027 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002307 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.139 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.7 MB.
-System memory in use after: 174.8 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1826.
-Total: 1.368292 ms (FindLiveObjects: 0.108291 ms CreateObjectMapping: 0.063333 ms MarkObjects: 1.137875 ms  DeleteObjects: 0.057958 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002283 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.075 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.2 MB.
-System memory in use after: 175.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1829.
-Total: 1.303500 ms (FindLiveObjects: 0.103708 ms CreateObjectMapping: 0.060917 ms MarkObjects: 1.083208 ms  DeleteObjects: 0.055000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002433 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.128 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.7 MB.
+System memory in use before: 175.8 MB.
 System memory in use after: 175.8 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1832.
-Total: 1.300875 ms (FindLiveObjects: 0.097625 ms CreateObjectMapping: 0.060542 ms MarkObjects: 1.090583 ms  DeleteObjects: 0.051458 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1836.
+Total: 1.378708 ms (FindLiveObjects: 0.111667 ms CreateObjectMapping: 0.027292 ms MarkObjects: 1.172458 ms  DeleteObjects: 0.066458 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   requireTextureImportCompression: false -> true
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002250 seconds.
+Registered in 0.002154 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.215 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.2 MB.
-System memory in use after: 176.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1835.
-Total: 1.310250 ms (FindLiveObjects: 0.108292 ms CreateObjectMapping: 0.060792 ms MarkObjects: 1.082875 ms  DeleteObjects: 0.057625 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-========================================================================
-Received Import Request.
-  Time since last request: 179.767952 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280a7db79e980f87824ff82ed2d14a1f') in 0.008371 seconds
-  Import took 0.011479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007884 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280a7db79e980f87824ff82ed2d14a1f') in 0.001821 seconds
-  Import took 0.003418 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002247 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.111 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.6 MB.
-System memory in use after: 176.7 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1838.
-Total: 1.331208 ms (FindLiveObjects: 0.116708 ms CreateObjectMapping: 0.062958 ms MarkObjects: 1.096042 ms  DeleteObjects: 0.054916 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-========================================================================
-Received Import Request.
-  Time since last request: 36.719676 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ea191245cfb059d521935c38afc48b') in 0.006072 seconds
-  Import took 0.007495 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002405 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.203 seconds
+- Completed reload, in  2.055 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 177.1 MB.
-System memory in use after: 177.2 MB.
+System memory in use before: 176.3 MB.
+System memory in use after: 176.3 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1841.
-Total: 1.394042 ms (FindLiveObjects: 0.136709 ms CreateObjectMapping: 0.064041 ms MarkObjects: 1.133042 ms  DeleteObjects: 0.059584 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1839.
+Total: 1.291667 ms (FindLiveObjects: 0.098583 ms CreateObjectMapping: 0.031208 ms MarkObjects: 1.114583 ms  DeleteObjects: 0.046583 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   requireTextureImportCompression: false -> true
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002447 seconds.
+Registered in 0.002187 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.071 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.8 MB.
+System memory in use after: 176.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1842.
+Total: 1.307750 ms (FindLiveObjects: 0.103541 ms CreateObjectMapping: 0.032334 ms MarkObjects: 1.116416 ms  DeleteObjects: 0.054709 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002398 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  2.164 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 177.6 MB.
-System memory in use after: 177.7 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1844.
-Total: 1.305750 ms (FindLiveObjects: 0.115791 ms CreateObjectMapping: 0.063583 ms MarkObjects: 1.070750 ms  DeleteObjects: 0.054541 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002374 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.168 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.0 MB.
-System memory in use after: 178.1 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1847.
-Total: 1.288709 ms (FindLiveObjects: 0.113417 ms CreateObjectMapping: 0.061083 ms MarkObjects: 1.059375 ms  DeleteObjects: 0.054083 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-========================================================================
-Received Import Request.
-  Time since last request: 363.554730 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847868030a379d508a32b0298c5f1b04') in 0.007960 seconds
-  Import took 0.010985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007738 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847868030a379d508a32b0298c5f1b04') in 0.001763 seconds
-  Import took 0.003551 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002325 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.210 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.6 MB.
-System memory in use after: 178.7 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1850.
-Total: 2.102542 ms (FindLiveObjects: 0.254583 ms CreateObjectMapping: 0.069458 ms MarkObjects: 1.656416 ms  DeleteObjects: 0.121292 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002346 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.157 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 179.1 MB.
-System memory in use after: 179.1 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1853.
-Total: 1.358917 ms (FindLiveObjects: 0.123708 ms CreateObjectMapping: 0.061084 ms MarkObjects: 1.118333 ms  DeleteObjects: 0.055208 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002362 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.140 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 179.6 MB.
-System memory in use after: 179.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1856.
-Total: 1.334083 ms (FindLiveObjects: 0.113667 ms CreateObjectMapping: 0.063125 ms MarkObjects: 1.102459 ms  DeleteObjects: 0.054125 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002199 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.159 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.0 MB.
-System memory in use after: 180.1 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1859.
-Total: 1.631542 ms (FindLiveObjects: 0.162167 ms CreateObjectMapping: 0.073750 ms MarkObjects: 1.330375 ms  DeleteObjects: 0.064042 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-========================================================================
-Received Import Request.
-  Time since last request: 344.399226 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005008 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.007921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010318 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001312 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.002778 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.106460 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001314 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.002867 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.027733 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001297 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.002888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.038287 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001388 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.003174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.064226 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001448 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.003334 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096576 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002067 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.004559 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095447 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002309 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.005142 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095442 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002638 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.005865 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094711 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003128 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094161 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003116 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.091868 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002848 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093656 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002601 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.005756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094530 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003019 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093528 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003038 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.100247 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003208 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.007084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.086511 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003139 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093350 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003107 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.092875 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003108 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006609 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021283 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002025 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.004568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.168144 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003008 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.091855 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002871 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094274 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003114 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006801 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093395 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003180 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006876 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.092928 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003136 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093239 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003203 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.007025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093610 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003159 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.091974 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003129 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094161 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003202 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.092075 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003195 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006816 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.097562 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003287 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.089325 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003301 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.007022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.092329 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003210 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.091951 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003061 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093671 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002667 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.005992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093994 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003146 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093192 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002764 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093460 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002663 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.005948 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094653 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003115 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.092851 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002697 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.005868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093572 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002738 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.005759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.117607 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001911 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.003743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.107478 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001724 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.003793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095308 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004779 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.006743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.092132 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001390 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.003195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.101787 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001673 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.003740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.092903 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001345 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.003099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.097442 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001819 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.003895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.098289 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002032 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.004055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094566 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001978 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.004037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.089211 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003383 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.005444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.104298 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001898 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.004019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094363 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001564 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.003661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.089900 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001876 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.003684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.102066 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004966 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.008577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.091564 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002661 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.005772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.091863 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002487 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.005707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.091700 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002446 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.005309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.092957 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002359 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.005019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.099142 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002446 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.005331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.102512 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002492 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.005535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.084906 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002364 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.005325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094217 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002422 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.005393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096655 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002497 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.005409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.090183 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002409 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.005170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095123 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002527 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.005319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.098618 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002415 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:22Z'
-  Import took 0.005587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.088439 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002550 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:37Z'
-  Import took 0.005222 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.098815 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002397 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:37Z'
-  Import took 0.005421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094061 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002382 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:37Z'
-  Import took 0.005271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.092109 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002117 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:37Z'
-  Import took 0.004670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094685 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002191 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:37Z'
-  Import took 0.005025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.102913 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002740 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:37Z'
-  Import took 0.006034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094506 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002421 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:37Z'
-  Import took 0.005489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.086556 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002235 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:37Z'
-  Import took 0.004953 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.097070 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002403 seconds
-  ERROR: Build asset version error: assets/scripts/snapobjectsineditmode.cs in SourceAssetDB has modification time of '2021-12-27T12:59:44Z' while content on disk has modification time of '2021-12-27T13:00:37Z'
-  Import took 0.005435 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002233 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.113 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.5 MB.
-System memory in use after: 180.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1862.
-Total: 1.292000 ms (FindLiveObjects: 0.099417 ms CreateObjectMapping: 0.060958 ms MarkObjects: 1.078667 ms  DeleteObjects: 0.052416 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-========================================================================
-Received Import Request.
-  Time since last request: 7.406988 seconds.
-  path: Assets/Scripts/SnapObjectsInEditMode.cs
-  artifactKey: Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SnapObjectsInEditMode.cs using Guid(b184adaed0ac4448eb3921e2b66ad419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82441df64026effacaba62842a0d7cd7') in 0.004927 seconds
-  Import took 0.006414 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002404 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.157 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.0 MB.
-System memory in use after: 181.1 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1865.
-Total: 1.350000 ms (FindLiveObjects: 0.135166 ms CreateObjectMapping: 0.063542 ms MarkObjects: 1.093333 ms  DeleteObjects: 0.057458 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002324 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.169 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.4 MB.
-System memory in use after: 181.5 MB.
+System memory in use before: 177.3 MB.
+System memory in use after: 177.3 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1868.
-Total: 1.338917 ms (FindLiveObjects: 0.113042 ms CreateObjectMapping: 0.061791 ms MarkObjects: 1.104458 ms  DeleteObjects: 0.058958 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002368 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.155 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.22 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.9 MB.
-System memory in use after: 182.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1871.
-Total: 1.323250 ms (FindLiveObjects: 0.110333 ms CreateObjectMapping: 0.061083 ms MarkObjects: 1.097709 ms  DeleteObjects: 0.053417 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1845.
+Total: 1.333833 ms (FindLiveObjects: 0.106750 ms CreateObjectMapping: 0.026750 ms MarkObjects: 1.138500 ms  DeleteObjects: 0.061166 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   requireTextureImportCompression: false -> true
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001983 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.171 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1395 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 184.4 MB.
-System memory in use after: 183.8 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1874.
-Total: 1.547500 ms (FindLiveObjects: 0.107208 ms CreateObjectMapping: 0.061667 ms MarkObjects: 1.104250 ms  DeleteObjects: 0.273834 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002283 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.179 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1395 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 184.8 MB.
-System memory in use after: 184.3 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1877.
-Total: 1.577958 ms (FindLiveObjects: 0.114541 ms CreateObjectMapping: 0.061792 ms MarkObjects: 1.132958 ms  DeleteObjects: 0.268041 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002252 seconds.
+Registered in 0.002175 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.122 seconds
+- Completed reload, in  2.300 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1395 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 185.3 MB.
-System memory in use after: 184.8 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1880.
-Total: 1.557875 ms (FindLiveObjects: 0.120833 ms CreateObjectMapping: 0.061958 ms MarkObjects: 1.097833 ms  DeleteObjects: 0.276500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002125 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.133 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1395 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 185.8 MB.
-System memory in use after: 185.2 MB.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.8 MB.
+System memory in use after: 177.8 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1883.
-Total: 1.595458 ms (FindLiveObjects: 0.115334 ms CreateObjectMapping: 0.061958 ms MarkObjects: 1.135083 ms  DeleteObjects: 0.282542 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1848.
+Total: 1.439041 ms (FindLiveObjects: 0.159917 ms CreateObjectMapping: 0.028958 ms MarkObjects: 1.181292 ms  DeleteObjects: 0.068125 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   requireTextureImportCompression: false -> true
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002194 seconds.
+Registered in 0.002226 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.126 seconds
+- Completed reload, in  2.150 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1395 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.3 MB.
-System memory in use after: 185.7 MB.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.2 MB.
+System memory in use after: 178.3 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1886.
-Total: 1.613042 ms (FindLiveObjects: 0.109000 ms CreateObjectMapping: 0.061625 ms MarkObjects: 1.148667 ms  DeleteObjects: 0.293167 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1851.
+Total: 1.314458 ms (FindLiveObjects: 0.104750 ms CreateObjectMapping: 0.026917 ms MarkObjects: 1.112875 ms  DeleteObjects: 0.069291 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   requireTextureImportCompression: false -> true
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002180 seconds.
+Registered in 0.002253 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.065 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1395 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.8 MB.
-System memory in use after: 186.2 MB.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.196 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.7 MB.
+System memory in use after: 178.8 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1889.
-Total: 1.610291 ms (FindLiveObjects: 0.122083 ms CreateObjectMapping: 0.062167 ms MarkObjects: 1.119541 ms  DeleteObjects: 0.305875 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1854.
+Total: 1.395500 ms (FindLiveObjects: 0.147875 ms CreateObjectMapping: 0.031500 ms MarkObjects: 1.148084 ms  DeleteObjects: 0.067000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003278 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.984 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.2 MB.
+System memory in use after: 179.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1857.
+Total: 1.246500 ms (FindLiveObjects: 0.092167 ms CreateObjectMapping: 0.026459 ms MarkObjects: 1.078291 ms  DeleteObjects: 0.048916 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001839 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.082 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.7 MB.
+System memory in use after: 179.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1860.
+Total: 1.456541 ms (FindLiveObjects: 0.145500 ms CreateObjectMapping: 0.028375 ms MarkObjects: 1.216750 ms  DeleteObjects: 0.064792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002112 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.979 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.2 MB.
+System memory in use after: 180.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1863.
+Total: 1.344417 ms (FindLiveObjects: 0.108000 ms CreateObjectMapping: 0.028167 ms MarkObjects: 1.152000 ms  DeleteObjects: 0.055750 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   requireTextureImportCompression: false -> true

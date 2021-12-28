@@ -304,13 +304,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 793338094}
-  m_LocalRotation: {x: 0.953717, y: 0, z: 0, w: 0.30070582}
-  m_LocalPosition: {x: 0, y: 0, z: 8.5}
-  m_LocalScale: {x: 4, y: 1, z: 15}
+  m_LocalRotation: {x: 0.69268495, y: -0.34355405, z: 0.39294225, w: -0.4977496}
+  m_LocalPosition: {x: -3.339583, y: -0.225137, z: 11.150847}
+  m_LocalScale: {x: 5.3654, y: 1, z: 15}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 145, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 204.808, y: -437.551, z: 432.799}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,8 +413,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1780433330
-BoxCollider:
+--- !u!135 &1780433330
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -424,7 +424,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Radius: 0.5000001
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1780433331
 MeshRenderer:
@@ -474,7 +474,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1780433329}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1780433333
 Transform:
   m_ObjectHideFlags: 0
@@ -482,10 +482,10 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1780433329}
-  m_LocalRotation: {x: 0, y: 0.8870109, z: 0.4617486, w: 0}
-  m_LocalPosition: {x: 0.620001, y: -0.9075739, z: 5.460404}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.26224753, y: 0.6426427, z: -0.24958947, w: 0.6752347}
+  m_LocalPosition: {x: -8.227333, y: 0.8840711, z: 9.100037}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: -772.683, y: 0, z: 180}
+  m_LocalEulerAnglesHint: {x: -181.191, y: 187.547, z: -180}
